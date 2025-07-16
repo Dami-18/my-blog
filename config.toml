@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://zola-folio.pages.dev"
-title = "*folio"
-description = "simple whitespace theme"
+title = "synapse"
+description = "my thoughts out loud"
 
 default_language = "en"
 compile_sass = true
