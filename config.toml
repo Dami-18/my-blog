@@ -1,11 +1,22 @@
 # The URL the site will be built for
-base_url = "https://dami-18.github.io/my-blog"
+base_url = "https://zola-folio.pages.dev"
+title = "*folio"
+description = "simple whitespace theme"
 
-# Whether to automatically compile all Sass files in the sass directory
+default_language = "en"
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+taxonomies = [
+    {name = "tags"}
+]
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -13,4 +24,17 @@ build_search_index = true
 highlight_code = true
 
 [extra]
+# Include mathjax?
+math = true
+
+theme_color = "red"
+
 # Put all your custom variables here
+menu_items = [
+    {name = "about", url = "/pages/about"},
+    {name = "projects", url = "/pages/projects"},
+    {name = "photography", url = "/pages/photography"},
+]
+
+author = "Everett Robinson"
+show_only_description = true
