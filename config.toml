@@ -1,6 +1,6 @@
 # The URL the site will be built for
 base_url = "https://zola-folio.pages.dev"
-title = "synapse"
+title = "damn...yeah"
 description = "my thoughts out loud"
 
 default_language = "en"
@@ -33,8 +33,7 @@ theme_color = "red"
 menu_items = [
     {name = "about", url = "/pages/about"},
     {name = "projects", url = "/pages/projects"},
-    {name = "photography", url = "/pages/photography"},
 ]
 
-author = "Everett Robinson"
+author = "Damiya Gondha"
 show_only_description = true

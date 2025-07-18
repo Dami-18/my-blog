@@ -3,14 +3,13 @@ title = "about"
 template = "about.html"
 [extra]
 socials = [
-	{name = "email", uri = "mailto:you@example.com"},
-	{name = "github", uri = "https://github.com"},
-	{name = "instagram", uri = "https://www.instagram.com/"},
-	{name = "bluesky", uri = "https://bsky.app/"}
+	{name = "email", uri = "mailto:damiyagondha@gmail.com"},
+	{name = "github", uri = "https://github.com/Dami-18"},
+	{name = "instagram", uri = "https://www.instagram.com/damiyagondha/"},
 ]
 +++
 
-<img class="col one-third-width right" src="/img/prof_pic.jpg">
+<img class="col one-third-width right" src="/img/prof_pic.jpeg">
 
 <br/>
 Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture "prof_pic.jpg" and put it in the img folder. 
