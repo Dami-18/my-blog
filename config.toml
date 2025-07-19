@@ -1,6 +1,6 @@
 # The URL the site will be built for
 base_url = "https://zola-folio.pages.dev"
-title = "damn...yeah"
+title = "damn..yeah"
 description = "my thoughts out loud"
 
 default_language = "en"
