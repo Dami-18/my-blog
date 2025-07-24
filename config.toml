@@ -31,8 +31,8 @@ theme_color = "red"
 
 # Put all your custom variables here
 menu_items = [
-    {name = "about", url = "/pages/about"},
-    {name = "projects", url = "/pages/projects"},
+    {name = "about", url = "/my-blog/pages/about"},
+    {name = "projects", url = "/my-blog/pages/projects"},
 ]
 
 author = "Damiya Gondha"

@@ -9,7 +9,7 @@ socials = [
 ]
 +++
 
-<img class="col one-third-width right" src="/img/prof_pic.jpeg">
+<img class="col one-third-width right" src="/my-blog/img/prof_pic.jpeg">
 
 <br/>
 Hi there!<br/>
