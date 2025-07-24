@@ -24,7 +24,7 @@
   <meta property="twitter:image"  content="{{ page.extra.feature_image }}">
   {% endif -%}
 
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
   {%- if config.extra.theme_color %}
     <link rel="stylesheet" href="{{ get_url(path="/color/" ~ config.extra.theme_color ~ ".css", trailing_slash=false) | safe }}">
   {% else %}
